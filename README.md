@@ -31,8 +31,7 @@ The project also creates finalized gold views to organize data for reporting and
 ## 🚀 Project Structure
 The repository is organized as follows:
 
-Copy
-sql-data-analytics-project/
+sql-data-analytics-project-main/
 ├── SalesDB/
 │   ├── Tables/
 │   │   ├── dim_customers.sql
