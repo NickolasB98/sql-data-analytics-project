@@ -32,24 +32,45 @@ The project also creates finalized gold views to organize data for reporting and
 The repository is organized as follows:
 
 sql-data-analytics-project-main/
+
 ├── SalesDB/
+
 │   ├── Tables/
+
 │   │   ├── dim_customers.sql
+
 │   │   ├── dim_products.sql
+
 │   │   └── fact_sales.sql
+
 │   ├── Views/
+
 │   │   ├── report_customers.sql
+
 │   │   └── report_products.sql
+
 │   └── Queries/
+
 │       ├── final_reports/
+
 │       │   ├── customer_report.sql
+
 │       │   └── product_report.sql
+
 │       ├── gold_views_analysis/
+
 │       │   ├── explore_customer_report.sql
+
 │       │   └── explore_product_report.sql
+
 │       ├── part_to_whole_analysis/
+
 │       │   └── categories_contribution.sql
+
 │       └── performance_analysis/
+
 │           ├── compare_mom_sales_performance.sql
+
 │           └── compare_yoy_sales_performance.sql
+
 ├── README.md
