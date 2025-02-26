@@ -28,10 +28,10 @@ The project also creates finalized gold views to organize data for reporting and
 - **`report_customers`:** A view used for customer reporting.
 - **`report_products`:** A view used for product reporting.
 
-## Project Structure
-
+## 🚀 Project Structure
 The repository is organized as follows:
 
+Copy
 sql-data-analytics-project/
 ├── SalesDB/
 │   ├── Tables/
