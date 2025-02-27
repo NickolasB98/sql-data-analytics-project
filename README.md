@@ -13,19 +13,6 @@ It utilizes a PostgreSQL database named `SalesDB` to perform several types of an
 - **Performance Analysis:** Comparing sales performance over time (month-over-month and year-over-year).
 - **Exploratory Data Analysis (EDA):** Exploring the `customer_report` and `product_report` views to understand the data.
 
-## Database Schema
-
-The `SalesDB` database includes the following tables:
-
-- **`dim_customers`:** Contains customer demographic information.
-- **`dim_products`:** Contains product information.
-- **`fact_sales`:** Contains sales transaction data.
-
-The project also creates finalized gold views to organize data for reporting and analysis:
-
-- **`report_customers`:** A view used for customer reporting.
-- **`report_products`:** A view used for product reporting.
-
 ## 🗃️ Database Schema
 
 The `SalesDB` database consists of the following tables:
@@ -33,6 +20,11 @@ The `SalesDB` database consists of the following tables:
 - **`dim_customers`:** Stores customer demographic information (e.g., name, age, location).
 - **`dim_products`:** Contains product details (e.g., product name, category, price).
 - **`fact_sales`:** Records sales transaction data (e.g., transaction ID, customer ID, product ID, sales amount, date).
+
+The project also creates finalized gold views to organize data for reporting and analysis:
+
+- **`report_customers`:** A view used for customer reporting.
+- **`report_products`:** A view used for product reporting.
 
 ### Finalized Gold Views:
 To streamline reporting and analysis, the project creates two key views:
