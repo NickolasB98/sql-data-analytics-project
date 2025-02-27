@@ -1,4 +1,4 @@
-# SQL Data Analytics Portfolio Project
+# SQL Advanced Analytics Project
 
 ## 📌 Overview
 
